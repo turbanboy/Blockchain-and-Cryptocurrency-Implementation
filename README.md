@@ -23,7 +23,7 @@ The first block in the linked list is called the genesis block it was constructe
 
 Each block contains a Previous Hash values as well as its own hash value. The previous hash in terms of the genesis block  is all zeros (at least in the implementation used here) but as we move to the next block we see the hash of the genesis block reflected in the previous has of block 1.
 
-![](README/Blockchain@2x.png)
+![](./images/Blockchain@2x.png)
 
 I know what you must be thinking.
 
@@ -97,7 +97,7 @@ That is extremely hard especially if the blockchain network is big.
 Data that has been written to a block cannot be changed or erased this is why it is called an immutable ledger.
 
 
-![](README/hackerror.png)
+![](./images/hackerror.png)
 
 
 Say in the case of cryptocurrency once of these blocks are used in a  transaction. This will cause the entire network to update so that they also have that one transaction. 
